@@ -6,8 +6,6 @@ tags:
   - index
   - referencia
 aliases:
-  - "Funciones"
-  - "Function"
 ---
 
 # Funciones en MATLAB
@@ -202,7 +200,7 @@ main.m (script)
 |-------|----------|
 | Nombre de archivo ≠ nombre de función | Hacer que coincidan exactamente |
 | Olvidar asignar salida | Asegurar que todas las salidas tengan valor |
-| Función no encontrada | Verificar que el archivo está en el [[Configuración de la ruta de búsqueda\|path]] |
+| Función no encontrada | Verificar que el archivo está en el [[addpath y savepath|path]] |
 | Confusión con script | Si el archivo no comienza con `function`, MATLAB lo trata como script |
 
 ---
@@ -216,4 +214,4 @@ main.m (script)
 - [[Argumentos variables]]
 - [[Validación de argumentos]]
 - [[Scripts]]
-- [[Configuración de la ruta de búsqueda]]
+- [[addpath y savepath|Configuración de la ruta de búsqueda]]

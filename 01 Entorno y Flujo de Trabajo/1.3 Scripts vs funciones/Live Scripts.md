@@ -6,11 +6,6 @@ tags:
   - mlx
   - documentacion
   - notebook
-  - interactivo
-aliases:
-  - "Live Script"
-  - "Archivo .mlx"
-  - "MATLAB Live Editor"
 ---
 
 # Live Scripts (.mlx)
@@ -194,6 +189,6 @@ fprintf('Valor máximo: %.2f\n', max_valor)
 
 - [[Scripts]]
 - [[index]]
-- [[Atajos de teclado esenciales]]
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Publicación y documentación]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- publicación y documentación

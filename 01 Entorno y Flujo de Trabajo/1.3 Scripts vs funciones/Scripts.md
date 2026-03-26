@@ -6,10 +6,6 @@ tags:
   - m-files
   - flujo-de-trabajo
   - editor
-aliases:
-  - "Script MATLAB"
-  - "Archivo .m"
-  - "Scripts"
 ---
 
 # Scripts en MATLAB
@@ -50,7 +46,7 @@ a = 5;
 b = a * 2;
 ```
 
-Después de ejecutar, se puede inspeccionar `a` y `b` desde el Command Window o la ventana [[Editor, Command Window, Workspace, Current Folder#Workspace|Workspace]].
+Después de ejecutar, se puede inspeccionar `a` y `b` desde el Command Window o la ventana [[Workspace]].
 
 > [!warning] Riesgo
 > Si una variable ya existía en el workspace antes de ejecutar el script, puede ser sobrescrita o utilizada sin haber sido definida dentro del script.
@@ -97,7 +93,7 @@ plot(x, y);
 title('Gráfica de seno');
 ```
 
-Cada sección se puede ejecutar por separado con `Ctrl+Shift+Enter` (ver [[Atajos de teclado esenciales]]).
+Cada sección se puede ejecutar por separado con `Ctrl+Shift+Enter` (ver [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]).
 
 ### 3. Comentarios descriptivos
 
@@ -213,7 +209,7 @@ Las secciones hacen que el script sea:
 ## Flujo real de uso
 
 1. Crear `main.m` (script principal)
-2. Configurar rutas con `addpath` (ver [[Configuración de la ruta de búsqueda]])
+2. Configurar rutas con `addpath` (ver [[addpath y savepath|Configuración de la ruta de búsqueda]])
 3. Definir datos y parámetros
 4. Llamar funciones que contienen la lógica
 5. Visualizar resultados
@@ -264,7 +260,7 @@ grid on;
 
 - [[index]]
 - [[Live Scripts]]
-- [[Atajos de teclado esenciales]]
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Configuración de la ruta de búsqueda]]
-- [[Depuración]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- [[addpath y savepath|Configuración de la ruta de búsqueda]]
+- [[Comandos de depuración|Depuración]]

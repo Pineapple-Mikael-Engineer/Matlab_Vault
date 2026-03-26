@@ -6,20 +6,11 @@ tags:
   - comandos
   - dbstop
   - dbstep
-  - dbcont
-  - depuración
-  - command-window
-aliases:
-  - "Debug commands"
-  - "Comandos debug"
-  - "dbstop"
-  - "dbstep"
-  - "dbcont"
 ---
 
 # Comandos de depuración (dbstop, dbstep, dbcont)
 
-Los comandos de depuración permiten controlar la ejecución de código MATLAB desde el [[Editor, Command Window, Workspace, Current Folder#Command Window|Command Window]], especialmente útil para depuración avanzada, scripts sin interfaz gráfica, o cuando se necesita automatizar el proceso de depuración.
+Los comandos de depuración permiten controlar la ejecución de código MATLAB desde el [[Command Window]], especialmente útil para depuración avanzada, scripts sin interfaz gráfica, o cuando se necesita automatizar el proceso de depuración.
 
 ---
 
@@ -343,8 +334,8 @@ valor = 14.1421 * exp(-0.2)  % aproximado
 ## Notas relacionadas
 
 - [[Puntos de interrupción]]
-- [[Atajos de teclado esenciales]]
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Manejo de errores (try, catch)]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- manejo de errores (`try`, `catch`)
 - [[Scripts]]
-- [[Funciones en archivo]]
+- [[Funciones en Archivo|Funciones en archivo]]

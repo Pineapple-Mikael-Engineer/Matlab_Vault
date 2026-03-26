@@ -6,13 +6,6 @@ tags:
   - locales
   - privadas
   - visibilidad
-  - organizacion
-aliases:
-  - "Función local"
-  - "Función privada"
-  - "Subfunción"
-  - "Local function"
-  - "Private function"
 ---
 
 # Funciones locales y privadas

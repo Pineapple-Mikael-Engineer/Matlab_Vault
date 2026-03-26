@@ -6,13 +6,6 @@ tags:
   - teclado
   - productividad
   - editor
-  - command-window
-  - debug
-  - flujo-de-trabajo
-aliases:
-  - "Shortcuts MATLAB"
-  - "Atajos MATLAB"
-  - "Teclas rápidas MATLAB"
 ---
 
 # ⌨️ Atajos de teclado esenciales en MATLAB
@@ -89,7 +82,7 @@ Esto te ahorra MUCHO tiempo al reutilizar comandos que ya escribiste.
 | `F11` | Step Into — entra dentro de una función para depurarla |
 | `F5` (en debug) | Continuar ejecución hasta el siguiente breakpoint o final |
 
-Ver también: [[Depuración]]
+Ver también: [[Comandos de depuración|Depuración]]
 
 ---
 
@@ -140,6 +133,6 @@ Un flujo típico de alguien eficiente:
 
 ## Notas relacionadas
 
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Depuración]]
-- [[Scripts vs Funciones]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- [[Comandos de depuración|Depuración]]
+- [[Scripts]]

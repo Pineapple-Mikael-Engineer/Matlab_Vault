@@ -6,9 +6,6 @@ tags:
   - breakpoints
   - depuración
   - editor
-aliases:
-  - "Breakpoints"
-  - "Puntos de pausa"
 ---
 
 # Puntos de interrupción (breakpoints)
@@ -64,8 +61,8 @@ Al llegar a un breakpoint:
 
 1. La línea se resalta en **amarillo** en el Editor
 2. La ejecución se **pausa**
-3. El [[Editor, Command Window, Workspace, Current Folder#Workspace|Workspace]] muestra todas las variables actuales
-4. El [[Editor, Command Window, Workspace, Current Folder#Command Window|Command Window]] queda disponible para comandos interactivos
+3. El [[Workspace]] muestra todas las variables actuales
+4. El [[Command Window]] queda disponible para comandos interactivos
 5. Aparecen botones de control de depuración en la barra de herramientas
 
 ---
@@ -111,8 +108,8 @@ No se desea detenerse en cada iteración. Soluciones:
 
 Se pueden poner breakpoints en:
 - [[Scripts]]
-- [[Funciones en archivo]]
-- [[Funciones locales y privadas|Funciones locales]]
+- [[Funciones en Archivo|Funciones en archivo]]
+- [[Funciones Locales y Privadas#Funciones locales|Funciones locales]]
 - [[Funciones Anidadas]]
 
 ```matlab
@@ -190,7 +187,7 @@ disp(['x = ', num2str(x)]);
 ## Notas relacionadas
 
 - [[Comandos de depuración]]
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Atajos de teclado esenciales]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
 - [[Scripts]]
-- [[Funciones en archivo]]
+- [[Funciones en Archivo|Funciones en archivo]]

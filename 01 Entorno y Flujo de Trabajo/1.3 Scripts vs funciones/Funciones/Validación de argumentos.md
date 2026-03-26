@@ -6,13 +6,6 @@ tags:
   - validacion
   - arguments
   - tipos
-  - input-validation
-  - moderno
-aliases:
-  - "Arguments block"
-  - "Validación de argumentos"
-  - "Input validation"
-  - "Argument validation"
 ---
 
 # Validación de argumentos (arguments block)

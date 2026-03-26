@@ -6,11 +6,6 @@ tags:
   - pathtool
   - interfaz-grafica
   - GUI
-  - herramientas
-aliases:
-  - "Set Path (ventana)"
-  - "GUI del path"
-  - "Administrador de rutas"
 ---
 
 # `pathtool` — Interfaz gráfica del path
@@ -106,6 +101,6 @@ pathtool
 
 ## Notas relacionadas
 
-- [[Configuración de la ruta de búsqueda]]
+- [[addpath y savepath|Configuración de la ruta de búsqueda]]
 - [[addpath y savepath]]
-- [[Editor, Command Window, Workspace, Current Folder]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]

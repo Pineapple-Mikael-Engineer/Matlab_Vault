@@ -6,10 +6,6 @@ tags:
   - anonimas
   - function-handle
   - inline
-aliases:
-  - "Función anónima"
-  - "Anonymous function"
-  - "Function handle"
 ---
 
 # Funciones anónimas

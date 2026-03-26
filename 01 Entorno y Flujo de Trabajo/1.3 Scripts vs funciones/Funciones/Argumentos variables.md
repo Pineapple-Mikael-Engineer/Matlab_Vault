@@ -6,15 +6,6 @@ tags:
   - argumentos
   - varargin
   - varargout
-  - nargin
-  - nargout
-  - flexibilidad
-aliases:
-  - "Argumentos variables"
-  - "Número variable de argumentos"
-  - "Variable arguments"
-  - "varargin"
-  - "varargout"
 ---
 
 # Argumentos variables (varargin, varargout)

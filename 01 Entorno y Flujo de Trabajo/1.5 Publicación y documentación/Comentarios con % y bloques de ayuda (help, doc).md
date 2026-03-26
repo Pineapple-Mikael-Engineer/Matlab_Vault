@@ -6,12 +6,6 @@ tags:
   - documentacion
   - help
   - doc
-  - buenas-practicas
-aliases:
-  - "Comentarios MATLAB"
-  - "Bloques de ayuda"
-  - "Documentación de funciones"
-  - "Help"
 ---
 
 # Comentarios con `%` y bloques de ayuda (`help`, `doc`)
@@ -185,7 +179,7 @@ plot(x, y);
 title('Función seno');
 ```
 
-Las secciones con `%%` también son la base para la publicación con `publish` (ver [[Celdas (%%) y publicación a HTML-PDF]]).
+Las secciones con `%%` también son la base para la publicación con `publish` (ver [[Celdas y Publicacion a HTML-PDF|Celdas (%%) y publicación a HTML-PDF]]).
 
 ---
 
@@ -297,7 +291,7 @@ x = x + 1; % incremento para evitar división por cero
 
 ## Comentarios y publicación (`publish`)
 
-Cuando se usa `publish` (ver [[Celdas (%%) y publicación a HTML-PDF]]), MATLAB interpreta los comentarios de manera especial:
+Cuando se usa `publish` (ver [[Celdas y Publicacion a HTML-PDF|Celdas (%%) y publicación a HTML-PDF]]), MATLAB interpreta los comentarios de manera especial:
 
 | Elemento | En el script | En el documento publicado |
 |----------|--------------|---------------------------|
@@ -351,8 +345,8 @@ grid on;
 
 ## Notas relacionadas
 
-- [[Celdas (%%) y publicación a HTML-PDF]]
+- [[Celdas y Publicacion a HTML-PDF|Celdas (%%) y publicación a HTML-PDF]]
 - [[Scripts]]
-- [[Funciones en archivo]]
-- [[Editor, Command Window, Workspace, Current Folder]]
-- [[Atajos de teclado esenciales]]
+- [[Funciones en Archivo|Funciones en archivo]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]

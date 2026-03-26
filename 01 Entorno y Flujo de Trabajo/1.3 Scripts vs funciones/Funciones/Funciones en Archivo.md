@@ -6,9 +6,6 @@ tags:
   - archivo-m
   - sintaxis-basica
 aliases:
-  - "Función en archivo"
-  - "Función estándar"
-  - "Function file"
 ---
 
 # Funciones en archivo
@@ -302,7 +299,7 @@ end
 Undefined function or variable 'mi_funcion'.
 ```
 
-**Solución:** Verificar que el archivo está en la [[Configuración de la ruta de búsqueda\|ruta de búsqueda]] o en la carpeta activa.
+**Solución:** Verificar que el archivo está en la [[addpath y savepath|ruta de búsqueda]] o en la carpeta activa.
 
 ---
 

@@ -6,13 +6,6 @@ tags:
   - publish
   - documentacion
   - reportes
-  - secciones
-  - flujo-de-trabajo
-aliases:
-  - "Celdas MATLAB"
-  - "Secciones de código"
-  - "Publish MATLAB"
-  - "Publicar código"
 ---
 
 # Celdas (`%%`) y publicación a HTML/PDF
@@ -58,7 +51,7 @@ fprintf('Resultado: %.2f\n', d);
 | `Ctrl+Enter` | Ejecutar sección actual |
 | `Ctrl+Shift+Enter` | Ejecutar sección actual y avanzar a la siguiente |
 
-Ver también: [[Atajos de teclado esenciales]]
+Ver también: [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
 
 ### Navegación entre secciones
 
@@ -246,7 +239,7 @@ grid on;
 
 ## Scripts con celdas vs Live Scripts
 
-| Característica | Script (.m) con celdas | [[Live Scripts (.mlx)]] |
+| Característica | Script (.m) con celdas | [[Live Scripts]] |
 |----------------|------------------------|-------------------------|
 | **Formato** | Texto plano | XML/HDF5 interactivo |
 | **Edición** | Editor tradicional | Live Editor visual |
@@ -344,8 +337,8 @@ addpath(genpath('utilidades'));
 
 ## Notas relacionadas
 
-- [[Live Scripts (.mlx)]]
+- [[Live Scripts]]
 - [[Scripts]]
-- [[Atajos de teclado esenciales]]
-- [[Editor, Command Window, Workspace, Current Folder]]
+- [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
+- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
 - [[Comentarios con % y bloques de ayuda (help, doc)]]

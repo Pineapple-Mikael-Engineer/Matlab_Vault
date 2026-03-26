@@ -6,11 +6,6 @@ tags:
   - anidadas
   - nested-functions
   - scope
-  - closures
-aliases:
-  - "Nested functions"
-  - "Funciones dentro de funciones"
-  - "Closures MATLAB"
 ---
 
 # Funciones anidadas
@@ -533,7 +528,7 @@ plot(datos)
 ## Notas relacionadas
 
 - [[index|Índice: Funciones en MATLAB]]
-- [[Funciones en archivo]]
+- [[Funciones en Archivo|Funciones en archivo]]
 - [[Funciones anónimas]]
 - [[Funciones locales y privadas]]
 - [[Argumentos variables|Argumentos variables]]

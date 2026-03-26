@@ -6,12 +6,6 @@ tags:
   - addpath
   - savepath
   - entorno
-  - flujo-de-trabajo
-  - organización
-aliases:
-  - "Ruta de búsqueda MATLAB"
-  - "MATLAB path"
-  - "Configurar path"
 ---
 
 # ¿Qué es el _path_ en MATLAB?
@@ -20,8 +14,8 @@ Antes de los comandos, es necesario tener claro este concepto:
 
 👉 El **path** es la lista de carpetas donde MATLAB busca archivos:
 
-- [[Scripts vs Funciones|Scripts]] (`.m`)
-- [[Scripts vs Funciones|Funciones]] (`.m`)
+- [[Scripts]] (`.m`)
+- [[index|Funciones]] (`.m`)
 - Datos (`.mat`, `.txt`, etc.)
 - Clases (`.m`)
 - Modelos de Simulink (`.slx`)
@@ -36,7 +30,7 @@ Cuando se ejecuta un comando, MATLAB busca en este orden:
 
 | Orden | Ubicación | Descripción |
 |-------|-----------|-------------|
-| 1 | **Current Folder** | La carpeta activa donde se está trabajando. Ver [[Editor, Command Window, Workspace, Current Folder#Current Folder]] |
+| 1 | **Current Folder** | La carpeta activa donde se está trabajando. Ver [[Current Folder]] |
 | 2 | **Path** | Todas las carpetas agregadas con `addpath` |
 | 3 | **Built-in functions** | Funciones propias de MATLAB (como `plot`, `sin`, etc.) |
 
@@ -316,8 +310,8 @@ which mi_funcion  % Confirmar que MATLAB encuentra la función
 
 ## Notas relacionadas
 
-- [[Editor, Command Window, Workspace, Current Folder#Current Folder]]
-- [[Scripts vs Funciones]]
-- [[Archivos .m .mat .mlx]]
-- [[Flujo de trabajo integrado]]
+- [[Current Folder]]
+- [[Scripts]]
+- archivos `.m`, `.mat`, `.mlx`
+- flujo de trabajo integrado
 
