@@ -100,19 +100,5 @@ Supón que una función de análisis devuelve `NaN` inesperados. En vez de reesc
 
 Este enfoque reduce tiempo de corrección y evita introducir regresiones.
 
-## Checklist de depuración disciplinada
 
-- ¿Puedo reproducir el fallo de forma consistente?
-- ¿Dónde cambia por primera vez el estado esperado?
-- ¿Qué supuestos sobre tamaños/tipos estoy haciendo?
-- ¿El contexto de ejecución está limpio?
-- ¿La corrección elimina la causa raíz?
-
-## Qué documentar después del fix
-
-1. Síntoma observable.
-2. Causa raíz confirmada.
-3. Cambio aplicado.
-4. Caso de prueba que verifica la corrección.
-
-Este registro evita repetir diagnósticos en el futuro y acelera trabajo en equipo.
+]

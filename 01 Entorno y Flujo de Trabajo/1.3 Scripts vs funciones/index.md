@@ -107,15 +107,6 @@ Un proyecto suele empezar con un script corto. Al crecer, aparecen cálculos rep
 
 Esta transición no solo mejora orden; también facilita pruebas unitarias, reutilización y depuración localizada.
 
-## Checklist para decidir extracción a función
-
-- ¿Este bloque se repite?
-- ¿Tiene entradas/salidas identificables?
-- ¿Puedo describir su propósito en una frase?
-- ¿Sería útil en otro script?
-
-Si la mayoría es “sí”, probablemente deba ser función.
-
 ## Patrón recomendado
 
 - Script principal: configuración + secuencia de pasos.

@@ -100,13 +100,3 @@ Este mini flujo refleja la cooperación de paneles en una tarea sencilla.
 - [[Atajos de teclado esenciales en MATLAB]]
 - [[01 Entorno y Flujo de Trabajo/1.2 Configuración de la ruta de Búsqueda/index|Ruta de búsqueda]]
 
-## Escenario real de uso
-
-Imagina que estás empezando un laboratorio y te piden analizar una señal. Abres MATLAB, escribes un primer borrador en el Editor, ejecutas una sección, inspeccionas en Workspace si los tamaños de los vectores son correctos y haces una prueba rápida en Command Window para confirmar un cálculo puntual. Luego guardas script y datos en Current Folder. Ese ciclo, repetido muchas veces, es el núcleo del trabajo productivo.
-
-## Checklist breve antes de ejecutar
-
-- ¿Estoy en la carpeta correcta?
-- ¿El bloque tiene inicialización clara?
-- ¿Sé qué variables espero ver en Workspace?
-- ¿Lo que probé en consola quedó reflejado en el script?

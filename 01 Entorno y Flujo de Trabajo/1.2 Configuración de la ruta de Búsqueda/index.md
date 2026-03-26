@@ -96,18 +96,3 @@ Caso común: tienes `procesarDatos.m` en otra carpeta, la llamas desde tu script
 
 La solución correcta no es copiar y pegar archivos en cualquier lugar, sino diseñar una estructura de proyecto y una política de rutas clara.
 
-## Estrategia recomendada por proyecto
-
-1. Define una carpeta raíz del proyecto.
-2. Separa scripts principales de funciones auxiliares.
-3. Crea un script de inicio que configure rutas con `addpath`.
-4. Si necesitas persistencia global, usa `savepath` con criterio.
-5. Documenta la configuración para que otros la reproduzcan.
-
-## Checklist de diagnóstico rápido
-
-- ¿El archivo está realmente en disco?
-- ¿Coincide el nombre del archivo con la función principal?
-- ¿Estoy en la carpeta correcta?
-- ¿La carpeta está en el path?
-- ¿Hay conflicto de nombres con otra función?
