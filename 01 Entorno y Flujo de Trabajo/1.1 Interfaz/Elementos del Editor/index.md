@@ -8,24 +8,24 @@ tags:
 
 # Elementos del Editor
 
-Índice de los cuatro componentes clave del entorno de trabajo en MATLAB.
+Resumen rápido de los componentes principales del entorno de MATLAB.
 
-## Componentes
+## Editor
+Espacio para escribir y ejecutar scripts/funciones, con resaltado, celdas y depuración integrada.
 
-- [[Editor]]: escritura y ejecución estructurada de scripts/funciones.
-- [[Command Window]]: consola interactiva para pruebas rápidas.
-- [[Workspace]]: inspección de variables en memoria.
-- [[Current Folder]]: contexto de archivos y carpeta activa.
+**Ver nota:** [[Editor]]
 
-## Conexión entre componentes
+## Command Window
+Consola interactiva para ejecutar comandos directos, probar ideas y depurar en vivo.
 
-- Escribes en [[Editor]] y pruebas comandos en [[Command Window]].
-- Ambos impactan las variables visibles en [[Workspace]] (según contexto de ejecución).
-- Los archivos y rutas que ejecutas dependen de [[Current Folder]] y del `path`.
+**Ver nota:** [[Command Window]]
 
-## Lectura sugerida
+## Workspace
+Panel de variables en memoria durante la sesión, útil para inspección y control del estado.
 
-1. [[Editor]]
-2. [[Command Window]]
-3. [[Workspace]]
-4. [[Current Folder]]
+**Ver nota:** [[Workspace]]
+
+## Current Folder
+Vista de archivos y carpeta activa del proyecto; determina qué scripts se ejecutan directamente.
+
+**Ver nota:** [[Current Folder]]
