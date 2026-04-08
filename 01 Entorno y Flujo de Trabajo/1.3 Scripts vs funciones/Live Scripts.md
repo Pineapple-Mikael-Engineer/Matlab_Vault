@@ -78,7 +78,9 @@ $$
 \int_{0}^{\pi} \sin(x) \, dx = 2
 $$
 ```
-
+$$
+\int_{0}^{\pi} \sin(x) \, dx = 2
+$$
 ---
 
 ## Controles interactivos
@@ -191,4 +193,4 @@ fprintf('Valor máximo: %.2f\n', max_valor)
 - [[index]]
 - [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
 - [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
-- publicación y documentación
+- [[01 Entorno y Flujo de Trabajo/1.5 Publicación y documentación/index|Publicación y documentación]]

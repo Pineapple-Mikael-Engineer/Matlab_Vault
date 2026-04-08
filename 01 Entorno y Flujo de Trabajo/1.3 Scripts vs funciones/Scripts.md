@@ -55,13 +55,13 @@ Después de ejecutar, se puede inspeccionar `a` y `b` desde el Command Window o 
 
 ## Scripts vs Funciones
 
-| Característica | Script | [[index]] |
-|----------------|--------|---------------|
-| Entrada formal | No | Sí |
-| Salida formal | No | Sí |
-| Workspace | Global (base) | Local (propio) |
-| Reutilización | Baja | Alta |
-| Uso típico | Flujo principal, pruebas | Lógica reutilizable |
+| Característica | Script                   | [[01 Entorno y Flujo de Trabajo/1.3 Scripts vs funciones/Funciones/index\|Funciones]] |
+| -------------- | ------------------------ | ------------------------------------------------------------------------------------- |
+| Entrada formal | No                       | Sí                                                                                    |
+| Salida formal  | No                       | Sí                                                                                    |
+| Workspace      | Global (base)            | Local (propio)                                                                        |
+| Reutilización  | Baja                     | Alta                                                                                  |
+| Uso típico     | Flujo principal, pruebas | Lógica reutilizable                                                                   |
 
 **Regla mental:**
 - **Script** = el "director" que organiza el flujo
@@ -142,7 +142,7 @@ MATLAB ejecuta el script de arriba a abajo. Si se ejecuta solo una sección, pue
 Más de 100-200 líneas dificultan el mantenimiento y la depuración.
 
 > [!tip] Solución
-> Dividir la lógica en [[index]] y usar el script como "main" que las orquesta.
+> Dividir la lógica en [[01 Entorno y Flujo de Trabajo/1.3 Scripts vs funciones/Funciones/index|funciones]] y usar el script como "main" que las orquesta.
 
 ---
 
@@ -258,7 +258,7 @@ grid on;
 
 ## Notas relacionadas
 
-- [[index]]
+- [[01 Entorno y Flujo de Trabajo/1.3 Scripts vs funciones/Funciones/index|Funciones]]
 - [[Live Scripts]]
 - [[Atajos de teclado esenciales en MATLAB|Atajos de teclado esenciales]]
 - [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/Elementos del Editor/index|Editor, Command Window, Workspace, Current Folder]]
