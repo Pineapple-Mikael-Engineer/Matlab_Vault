@@ -141,3 +141,190 @@ chat: [deepseek](https://chat.deepseek.com/a/chat/s/6cef02df-f127-4a5d-bee0-4dff
 └── Flujo de trabajo integrado.md
 ```
 
+## capitulo 2
+
+```
+02 Tipos de Datos y Estructuras Fundamentales
+├── 2.1 Matrices y arreglos
+│   ├── Creacion.md
+│   ├── Indexacion.md
+│   └── Operaciones.md
+│
+├── 2.2 Tipos numéricos y lógicos.md  (una nota: enteros, single, double, NaN, Inf, logical)
+│
+├── 2.3 Cadenas y caracteres.md  (una nota: char vs string y funciones principales)
+│
+├── 2.4 Fechas y horas.md  (una nota: datetime, duration, calendarDuration)
+│
+├── 2.5 Arreglos de celdas (cell).md  (una nota: creación y diferencia () vs {})
+│
+├── 2.6 Estructuras (struct).md  (una nota: campos, notación de punto, arreglos de structs)
+│
+├── 2.7 Tablas (table)
+│   ├── Creacion_y_lectura.md
+│   ├── Manipulacion_basica.md  (sortrows, unique, groupsummary)
+│   └── Joins_y_acceso.md  (join, acceso por nombre de columna)
+│
+├── 2.8 Tipos especiales.md  (una nota: categorical, function_handle, containers.Map)
+│
+└── index.md
+```
+
+**Justificación:**
+
+- **2.1 Matrices** → 3 notas (tema enorme y fundamental)
+- **2.7 Tablas** → 3 notas (muy usado en análisis de datos)
+- **Todo lo demás** → 1 nota cada uno (temas autocontenidos que no necesitan más división)
+
+
+# Promt
+
+```tex
+Actúa como un asistente experto en organización de conocimiento técnico para Obsidian.
+
+Estoy construyendo un vault estructurado (tipo manual técnico) sobre MATLAB. Necesito que generes notas siguiendo estrictamente estas reglas:
+
+## 🧩 Estructura general
+
+- Las notas representan conceptos específicos dentro de una carpeta (módulo).
+- NO debes inventar notas padre que no existan.
+- El contenido debe ser claro, técnico y bien estructurado.
+
+---
+
+## 🏷️ Frontmatter (OBLIGATORIO)
+
+Siempre incluye este frontmatter al inicio:
+
+---
+title: "Nombre — descripcion concreta con keywords reales"
+aliases: []
+tags: []
+draft: true
+---
+
+### Reglas:
+
+### title
+- Formato: "Concepto o acción — contenido específico"
+- La descripción debe incluir funciones, keywords o ideas reales dentro de la nota
+- Máximo 3–5 elementos descriptivos
+- NO usar la carpeta como descripción
+
+Ejemplo correcto:
+"Creación de matrices — zeros, ones, linspace, logspace"
+
+Ejemplo incorrecto:
+"Creación — Matrices y arreglos"
+
+---
+
+### aliases
+- Incluye sinónimos útiles o formas de búsqueda
+- Puede estar vacío si no aporta valor
+
+---
+
+### tags
+- Máximo 3–5 tags
+- Siempre incluir "matlab"
+- Incluir:
+  - tema (matrices, tablas, indexacion, etc.)
+  - tipo (concepto, guia, ejemplo, referencia)
+
+Ejemplo:
+[matlab, matrices, concepto]
+
+---
+
+### draft
+- Siempre en true (luego lo cambio manualmente)
+
+---
+
+## 🔗 Wikilinks
+
+- Usa siempre formato:
+  [[NombreArchivo|NombreArchivo]]
+
+- NO incluir ".md"
+- El texto visible debe ser limpio (sin descripción)
+- NO usar el title dentro del link
+
+---
+
+### 📌 Reglas de uso de enlaces (MUY IMPORTANTE)
+
+- Cada nota enlazada debe aparecer como máximo **1 o 2 veces en el cuerpo del texto**
+- Solo enlazar en sus **primeras apariciones importantes**
+- Evitar repetir enlaces innecesarios (no saturar el texto)
+
+---
+
+### ⚠️ Restricciones de uso de wikilinks
+
+- Los wikilinks SOLO pueden aparecer en:
+  - párrafos normales
+
+- NO usar wikilinks en:
+  - encabezados (headers)
+  - bloques de código
+  - inline code (`codigo`)
+
+- En tablas:
+  - pueden usarse, pero EVITARLOS en lo posible
+  - el carácter `|` puede romper la tabla
+  - si se usan, deben manejarse con cuidado (escape)
+
+---
+
+## 🔚 Notas relacionadas (OBLIGATORIO)
+
+Al final de la nota, incluir una sección:
+
+## Notas relacionadas
+
+- Listar las notas relacionadas usando wikilinks
+- Formato simple:
+  - [[Nota1|Nota1]]
+  - [[Nota2|Nota2]]
+
+- NO agregar descripciones
+- NO repetir enlaces excesivos en el cuerpo si ya estarán aquí
+
+---
+
+## ✍️ Contenido
+
+- Explicación clara y técnica
+- Uso de ejemplos cuando sea necesario
+- Estructura con encabezados
+- Pensado para estudio (no solo referencia rápida)
+
+---
+
+## 🚫 Evitar
+
+- Títulos genéricos sin información real
+- Tags redundantes o inconsistentes
+- Explicaciones vagas
+- Mezclar conceptos sin estructura
+- Saturación de wikilinks
+- Uso incorrecto de enlaces en headers, código o tablas
+
+---
+
+## 🎯 Objetivo
+
+Cada nota debe:
+- Poder entenderse de forma independiente
+- Conectarse fácilmente con otras notas
+- Mantener legibilidad (pocos enlaces, pero bien usados)
+- Ser robusta para exportación futura (ej: Quartz)
+- Servir como material de estudio y referencia
+
+---
+
+Ahora genera la nota para el siguiente tema:
+[TEMA_AQUI]
+```
