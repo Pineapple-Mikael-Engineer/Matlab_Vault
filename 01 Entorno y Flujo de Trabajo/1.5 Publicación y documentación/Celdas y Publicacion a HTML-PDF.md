@@ -28,7 +28,7 @@ c = a + b;
 d = c^2;
 
 %% Sección 3: Resultados
-fprintf('Resultado: %.2f\n', d);
+fprintf('Resultado: %.2f\\n', d);
 ```
 
 ### Características clave
