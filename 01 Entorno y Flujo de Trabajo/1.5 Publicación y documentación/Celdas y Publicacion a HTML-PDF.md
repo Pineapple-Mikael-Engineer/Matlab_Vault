@@ -8,7 +8,7 @@ tags:
   - reportes
 ---
 
-# Celdas (`%%`) y publicación a HTML/PDF
+# Celdas y publicación a HTML/PDF
 
 Las **celdas** (delimitadas por `%%`) permiten dividir un script en secciones ejecutables de forma independiente. Combinadas con la funcionalidad de **publicación** (`publish`), convierten un script en un documento reproducible en formatos como HTML, PDF, Word o LaTeX.
 
