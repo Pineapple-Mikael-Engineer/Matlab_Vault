@@ -1,5 +1,5 @@
 ---
-title: 'Celdas (%%) y publicación a HTML/PDF'
+title: 'Celdas y publicación a HTML/PDF'
 tags:
   - MATLAB
   - celdas
