@@ -1,8 +1,17 @@
 ---
-title: "Operaciones con matrices — elemento a elemento (.*, ./, .^) vs matriciales (*, / , ^)"
-aliases: ["producto elemento a elemento", "division matricial", "potencia matricial", "operador punto", "algebra lineal"]
-tags: [matlab, matrices, concepto, guia]
-draft: true
+title: Operaciones con matrices — elemento a elemento (.*, ./, .^) vs matriciales (*, / , ^)
+aliases:
+  - producto elemento a elemento
+  - division matricial
+  - potencia matricial
+  - operador punto
+  - algebra lineal
+tags:
+  - matlab
+  - matrices
+  - concepto
+  - guia
+draft: false
 ---
 
 # Operaciones con matrices
@@ -117,8 +126,3 @@ B = A + 10;       % [11,12; 13,14]
 
 Para más detalles sobre cómo se construyen las matrices, ver [[Creacion|Creacion]].
 
-## Notas relacionadas
-
-- [[Creacion]]
-- [[Indexacion]]
-- [[Tipos numéricos y lógicos]]

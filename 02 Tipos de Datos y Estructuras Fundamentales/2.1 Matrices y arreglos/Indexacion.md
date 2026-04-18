@@ -1,8 +1,16 @@
 ---
 title: "Indexación de matrices — subíndices, lineal, lógica, end, operador :"
-aliases: ["acceso a elementos", "extraer submatrices", "indexado logico", "indices"]
-tags: [matlab, matrices, concepto, guia]
-draft: true
+aliases:
+  - acceso a elementos
+  - extraer submatrices
+  - indexado logico
+  - indices
+tags:
+  - matlab
+  - matrices
+  - concepto
+  - guia
+draft: false
 ---
 
 # Indexación de matrices
@@ -117,9 +125,3 @@ indices = find(A > 5);     % [2; 3; 4; 5; 6] (lineales)
 
 El uso combinado de [[Creacion|Creacion]] e indexación permite construir y manipular arreglos de forma eficiente.
 
-## Notas relacionadas
-
-- [[Creacion]]
-- [[Operaciones]]
-- [[Tipos numéricos y lógicos]]
-- [[Funciones de conversion indice]]

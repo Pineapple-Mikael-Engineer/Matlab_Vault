@@ -1,8 +1,18 @@
 ---
 title: "Creación de matrices y arreglos — zeros, ones, eye, rand, linspace, logspace, repmat, reshape, corchetes, operador :"
-aliases: ["inicializar matrices", "generar vectores", "matriz identidad", "espaciado lineal", "repeticion de matrices", "cambiar dimensiones"]
-tags: [matlab, matrices, concepto, guia]
-draft: true
+aliases:
+  - inicializar matrices
+  - generar vectores
+  - matriz identidad
+  - espaciado lineal
+  - repeticion de matrices
+  - cambiar dimensiones
+tags:
+  - matlab
+  - matrices
+  - concepto
+  - guia
+draft: false
 ---
 
 # Creación de matrices y arreglos
@@ -174,11 +184,4 @@ combinations(1:3, 1:3) % Producto cartesiano (9 combinaciones)
 ```
 
 Para operaciones entre matrices, ver [[Operaciones|Operaciones]].
-
-## Notas relacionadas
-
-- [[Indexacion]]
-- [[Operaciones]]
-- [[Tipos numéricos y lógicos]]
-- [[Matrices dispersas]]
 
