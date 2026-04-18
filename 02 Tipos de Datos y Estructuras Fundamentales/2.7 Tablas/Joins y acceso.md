@@ -11,7 +11,7 @@ tags:
   - tablas
   - concepto
   - guia
-draft: true
+draft: false
 ---
 
 # Joins y acceso en tablas

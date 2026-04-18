@@ -109,10 +109,3 @@ Para trabajo serio, la estrategia B suele ahorrar tiempo total.
 - **No registrar flujo**: ejecutar comandos sueltos sin consolidar scripts.
 - **Sobrecargar links sin contexto**: índice con 20 enlaces y cero explicación.
 
-## Notas relacionadas
-
-- [[Silabo]]
-- [[01 Entorno y Flujo de Trabajo/index|01 Entorno y Flujo de Trabajo]]
-- [[01 Entorno y Flujo de Trabajo/1.1 Interfaz/index|1.1 Interfaz]]
-- [[01 Entorno y Flujo de Trabajo/1.3 Scripts vs funciones/index|1.3 Scripts vs funciones]]
-- [[01 Entorno y Flujo de Trabajo/1.4 Depuración/index|1.4 Depuración]]

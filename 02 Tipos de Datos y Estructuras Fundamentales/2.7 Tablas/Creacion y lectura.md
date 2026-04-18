@@ -10,7 +10,7 @@ tags:
   - tablas
   - concepto
   - guia
-draft: true
+draft: false
 ---
 
 # Creación y lectura de tablas

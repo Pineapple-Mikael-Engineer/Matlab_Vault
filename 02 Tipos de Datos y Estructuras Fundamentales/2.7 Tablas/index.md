@@ -1,5 +1,5 @@
 ---
-title: Tablas
+title: 2.7 Tablas
 aliases:
   - dataframes
   - datos tabulares
@@ -10,7 +10,7 @@ tags:
   - tablas
   - concepto
   - index
-draft: true
+draft: false
 ---
 
 # Tablas

@@ -1,5 +1,5 @@
 ---
-title: Tipos de datos y estructuras fundamentales
+title: 02 Tipos de datos y estructuras fundamentales
 aliases:
   - tipos MATLAB
   - estructuras de datos MATLAB

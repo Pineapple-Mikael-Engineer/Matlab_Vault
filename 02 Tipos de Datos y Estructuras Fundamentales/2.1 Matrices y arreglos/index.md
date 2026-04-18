@@ -1,5 +1,5 @@
 ---
-title: Matrices y arreglos
+title: 2.1 Matrices y arreglos
 aliases:
   - arrays
   - vectores y matrices
