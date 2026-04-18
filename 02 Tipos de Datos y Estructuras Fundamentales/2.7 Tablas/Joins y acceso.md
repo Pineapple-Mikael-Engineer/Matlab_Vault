@@ -1,7 +1,16 @@
 ---
-title: "Joins y acceso en tablas — join, innerjoin, outerjoin, acceso por nombre de columna, propiedades"
-aliases: ["combinar tablas", "fusionar tablas", "left join", "right join", "key variables"]
-tags: [matlab, tablas, concepto, guia]
+title: Joins y acceso en tablas
+aliases:
+  - combinar tablas
+  - fusionar tablas
+  - left join
+  - right join
+  - key variables
+tags:
+  - matlab
+  - tablas
+  - concepto
+  - guia
 draft: true
 ---
 

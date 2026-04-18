@@ -1,5 +1,5 @@
 ---
-title: "Creación de matrices y arreglos — zeros, ones, eye, rand, linspace, logspace, repmat, reshape, corchetes, operador :"
+title: Creación de matrices y arreglos
 aliases:
   - inicializar matrices
   - generar vectores

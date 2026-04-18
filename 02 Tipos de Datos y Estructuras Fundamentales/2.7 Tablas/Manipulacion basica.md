@@ -1,5 +1,5 @@
 ---
-title: Manipulación básica de tablas — sortrows, unique, groupsummary, addvars, removevars
+title: Manipulación básica de tablas
 aliases:
   - ordenar tablas
   - valores unicos

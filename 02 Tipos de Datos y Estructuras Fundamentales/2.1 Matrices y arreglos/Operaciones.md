@@ -1,5 +1,5 @@
 ---
-title: Operaciones con matrices — elemento a elemento (.*, ./, .^) vs matriciales (*, / , ^)
+title: Operaciones con matrices
 aliases:
   - producto elemento a elemento
   - division matricial

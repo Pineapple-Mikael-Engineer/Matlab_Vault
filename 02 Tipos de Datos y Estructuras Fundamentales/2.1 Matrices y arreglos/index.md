@@ -1,5 +1,5 @@
 ---
-title: Matrices y arreglos — creación, indexación y operaciones fundamentales en MATLAB
+title: Matrices y arreglos
 aliases:
   - arrays
   - vectores y matrices

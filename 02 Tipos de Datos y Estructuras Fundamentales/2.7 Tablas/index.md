@@ -1,7 +1,15 @@
 ---
-title: "Tablas — creación, manipulación y combinación de datos tabulares en MATLAB"
-aliases: ["dataframes", "datos tabulares", "tablas MATLAB", "importar datos"]
-tags: [matlab, tablas, concepto, index]
+title: Tablas
+aliases:
+  - dataframes
+  - datos tabulares
+  - tablas MATLAB
+  - importar datos
+tags:
+  - matlab
+  - tablas
+  - concepto
+  - index
 draft: true
 ---
 

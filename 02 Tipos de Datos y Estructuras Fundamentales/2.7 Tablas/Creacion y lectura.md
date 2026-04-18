@@ -1,7 +1,15 @@
 ---
-title: "Creación y lectura de tablas — table, array2table, struct2table, readtable, writetable"
-aliases: ["crear tablas", "importar datos", "exportar tablas", "tablas desde arreglos"]
-tags: [matlab, tablas, concepto, guia]
+title: Creación y lectura de tablas
+aliases:
+  - crear tablas
+  - importar datos
+  - exportar tablas
+  - tablas desde arreglos
+tags:
+  - matlab
+  - tablas
+  - concepto
+  - guia
 draft: true
 ---
 

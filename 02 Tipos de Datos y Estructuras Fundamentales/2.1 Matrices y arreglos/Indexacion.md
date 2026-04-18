@@ -1,5 +1,5 @@
 ---
-title: "Indexación de matrices — subíndices, lineal, lógica, end, operador :"
+title: Indexación de matrices
 aliases:
   - acceso a elementos
   - extraer submatrices
